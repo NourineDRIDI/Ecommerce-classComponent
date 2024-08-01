@@ -5,6 +5,9 @@ export default class Cart extends Component {
   render() {
     return (
       <div>
+        <h1>
+          this is Cart
+        </h1>
         
       </div>
     )
