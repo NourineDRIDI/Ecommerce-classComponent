@@ -4,7 +4,7 @@ export default class CreateProduct extends Component {
   render() {
     return (
       <div>
-        create
+        <h1>this is the create Component</h1>
       </div>
     )
   }

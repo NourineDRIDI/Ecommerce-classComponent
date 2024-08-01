@@ -17,7 +17,7 @@ export default class OneProduct extends Component {
                 {this.props.product.price}
             </Card.Text>
         </Card.Body>
-            <Button variant="outline-danger text-dark">Add To Cart</Button>
+            <Button variant="outline-danger text-dark" onClick={()=>this.props.addToCart(this.props.product)}>Add To Cart</Button>
     </Card>
     )
   }
