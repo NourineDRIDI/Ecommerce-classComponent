@@ -6,6 +6,7 @@ import Footer from './layouts/Footer'
 import AllProducts from './components/AllProducts'
 import OneProduct from './components/OneProduct'
 import axios from 'axios'
+import CreateProduct from './components/CreateProduct'
 
 
 export default class App extends Component {
@@ -43,6 +44,7 @@ componentDidMount(){
         <Navbar/>
         <div style={{paddingTop: '135px', paddingBottom:'90px', position: 'relative'}}>
          <AllProducts products={this.state.products}/> 
+         <CreateProduct/>
         </div>
         <Footer/>
       
