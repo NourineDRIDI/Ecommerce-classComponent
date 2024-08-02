@@ -13,6 +13,7 @@ render() {
             <OneProduct
                 key={index}
                 product={product}
+                addToCart={this.props.addToCart}
             />
         ))}
     </div>
